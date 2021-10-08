@@ -42,7 +42,6 @@ ERROR_MESSAGE = [
 
 
 def number_to_english(n: int) -> str:
-    # noinspection PyTypeChecker
     if isinstance(n, int) and 0 <= n <= 999_999:
         if n == 0:
             return "zero"
